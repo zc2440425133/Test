@@ -1,0 +1,26 @@
+.menu{
+    a{
+        cursor: pointer;
+    }
+    .menu-sub {
+        font-size: 0.85em;
+        color:#7f8c8d;
+        list-style-type: none;
+        margin: 0;
+        line-height: 1.5em;
+        padding-left: 1em;
+    }
+    .clicked{
+        font-weight: 600;
+        color: #42b983;
+    }
+    a{
+        &:hover{
+            font-weight: 600;
+            color: #42b983;
+        }
+    }
+    span{
+        cursor: pointer;
+    }
+}
